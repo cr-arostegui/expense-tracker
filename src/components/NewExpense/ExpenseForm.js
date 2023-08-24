@@ -48,7 +48,7 @@ const ExpenseForm = (props) => {
         setEnteredTitle(value);
         break;
       case 'date':
-        setEnteredTitle(value);
+        setEnteredDate(value);
         break;
       default:
         setEnteredAmount(value);
